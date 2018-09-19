@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "101691353997",
+    "firebase_url": "https://cookhome-319eb.firebaseio.com",
+    "project_id": "cookhome-319eb",
+    "storage_bucket": "cookhome-319eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101691353997:android:24e2ea7ee89335a7",
+        "android_client_info": {
+          "package_name": "com.ncookhom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101691353997-fh27mqft4f5t0euslcm4ia6ltm2721mc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncookhom",
+            "certificate_hash": "380c2c982995fa41fcaf28a79f543cfaa1b4a8f9"
+          }
+        },
+        {
+          "client_id": "101691353997-7br9gea6a8akb9qg0av6ek6ine1vqjk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvQ3YRUxSDuIPuPlwi8iPeo8BgIv3UUxA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101691353997-7br9gea6a8akb9qg0av6ek6ine1vqjk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ncookhom.MyOrders.ActiveFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/active_orders_recycler"
+        android:scrollbars="vertical"
+        android:layout_margin="5dp"
+        android:padding="3dp"/>
+
+    <ProgressBar
+        android:id="@+id/active_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="لا توجد طلبات نشطة حاليا"
+        android:textStyle="bold"
+        android:id="@+id/check_txt"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+</FrameLayout>

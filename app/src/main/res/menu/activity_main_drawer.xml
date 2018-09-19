@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="الرئيسية" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="الملف الشخصى" />
+
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/email"
+            android:title="الرسائل" />
+
+        <item
+            android:id="@+id/nav_my_orders"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="طلباتى" />
+
+        <item
+            android:id="@+id/nav_ordered_from_me"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="طلبات" />
+
+        <item
+            android:id="@+id/nav_my_products"
+            android:icon="@drawable/ic_timeline_black_24dp"
+            android:title="منتجاتى" />
+
+        <item
+            android:id="@+id/nav_sreach"
+            android:icon="@drawable/search"
+            android:title="البحث" />
+
+        <item
+            android:id="@+id/add_product"
+            android:icon="@drawable/ic_add_to_queue_black_24dp"
+            android:title="اضافة اكلة" />
+
+        <!--<item-->
+            <!--android:id="@+id/nearby_location"-->
+            <!--android:icon="@drawable/ic_place_black_24dp"-->
+            <!--android:title="اقرب مكان اليك" />-->
+
+        <item
+            android:id="@+id/share_app"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="مشاركة التطبيق" />
+
+        <item
+            android:id="@+id/rate_app"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="تقييم التطبيق" />
+        <item
+            android:id="@+id/about_app"
+            android:icon="@drawable/about"
+            android:title="حول التطبيق" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_applications_black_24dp"
+            android:title="الاعدادات" />
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="اتصل بالادارة" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="تسجيل الخروج" />
+
+    </group>
+
+</menu>

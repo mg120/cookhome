@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFCB01</color>
+    <color name="colorPrimaryDark">#D0A701</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgRow">#FA315B</color>
+
+
+    // screens background colors...
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    // Dots colors ...
+    <color name="active_dots">#fffafa</color>
+    <color name="inactive_dots">#838387</color>
+    <color name="skyBlue">#60c0e7</color>
+
+
+</resources>
